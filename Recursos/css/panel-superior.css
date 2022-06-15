@@ -1,0 +1,63 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+*
+{
+
+  --color-nav: #000000;
+  --bg-nav: #0098cb;
+}
+
+/* ========== BARRA NAV ========== */
+
+.nav-container
+{
+  /* style */
+  background-color: var(--bg-nav);
+  font-size: larger;
+
+  /* grid */
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-columns: auto auto;
+
+  padding: 0;
+  margin: 0;
+
+  /* Mantener el nav siempre arriba del todo */
+  position: sticky;
+  top: 0;
+
+}
+
+.nav-container h1
+{
+  text-align: center;
+  font-size: large;
+  margin: 19.2px 0;
+  
+}
+
+.ul-nav
+{
+  /* style */
+  list-style: none;
+
+
+  /* grid */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  
+}
+
+.link-nav
+{
+  /* style */
+  text-decoration: none;
+  color: var(--color-nav);
+}

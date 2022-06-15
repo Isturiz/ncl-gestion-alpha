@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="Recursos/css/sistema.css">
 </head>
 <body>
-
+  
   <h1>Iniciar sesión</h1>
   <span>o <a href="">Registrar</a></span>
 
